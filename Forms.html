@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML form</h2>
+    <form action="backend.php">
+        <div>
+Name:<input type="text" name="myname" id="name">
+</div><br>
+<div>
+    Number:<input type="number">
+    </div><br>
+    <div>
+        D.O.B::<input type="date">
+        </div><br>
+        <label for="aya">Are you an adult:</label>
+        <div>
+            <input type="checkbox" id="aya">
+            </div><br>
+            <div>
+               Gender:Male<input type="radio" name="gender">Female<input type="radio"name="gender">others<input type="radio"name="gender">
+                </div><br>
+                <div>
+                    Time:<input type="time">
+                    </div><br>
+                    <div>
+                        Upload file:<input type="file">
+                        </div><br>
+                        <div>
+                            Write about yourself:<br><textarea name="mytext" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <label for="car">Car</label>
+                                <select name="mycar" id="car">
+                                <option value="hon">Honda</option>
+                                <option value="lambo">Lamborghini</option>
+                                <option value="mer" selected>Mercedes</option>
+                            </select>
+                                </div><br> 
+                        <div>
+                            <input type="submit" value="Submit now">
+                            <input type="reset" value="Reset now">
+                            </div><br>
+    </form>
+</body>
+</html>
